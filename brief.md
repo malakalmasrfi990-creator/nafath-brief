@@ -17,3 +17,18 @@ Resource: Scikit-learn – Cross-validation-https://scikit-learn.org/stable/modu
 Mobile devices for emergency responders should be compact, lightweight, and energy-efficient for easy use in critical situations. Semiconductor technology enables the integration of communication components into small chips, reducing device size and power consumption. The devices should support 5G connectivity and seamless handover between cellular base stations to maintain communication while responders are moving. They should also reconnect to available networks when coverage is lost, minimizing service interruptions. These features help ensure reliable connectivity, portability, and efficient communication during emergencies.
 
 Resource: 3GPP – Mobile Network Standards- https://www.3gpp.org
+
+## Networking
+5G network slicing is a technology that creates multiple virtual networks on shared physical infrastructure, each configured for specific service requirements. A dedicated slice for emergency responders can prioritize critical communications, provide guaranteed quality of service, and allocate resources to reduce delays during network congestion. This helps maintain reliable communication for emergency teams. However, its effectiveness depends on proper configuration, sufficient resources, and resilient network infrastructure.
+
+Resource: GSMA – Network Slicing- https://www.gsma.com/get-involved/gsma-foundry/gsma_resources/5g-maturity-and-adoption-in-asia-pacific-hospitals-from-readiness-to-implementation/ 
+
+## Cybersecurity
+The incident response lifecycle is essential for protecting the 5G network and ensuring reliable communication for emergency responders. It involves preparing security measures, detecting and analyzing cyberattacks, containing threats, removing malicious activity, restoring services, and reviewing incidents to prevent recurrence. The telecom operator should also implement strong authentication, secure passwords, and cryptographic keys to verify network components and prevent unauthorized access. Continuous network monitoring and timely incident response help minimize service disruptions, protect sensitive information, and maintain the availability and security of critical emergency communications. 
+
+Resource: 3GPP – 5G Security Standards-https://www.3gpp.org
+
+## Data
+A star schema uses a central fact table connected directly to denormalized dimension tables, making queries simpler and faster. A snowflake schema normalizes dimension tables into related sub-tables, reducing data redundancy but increasing query complexity. For reporting 5G service usage by region and day, a star schema is more suitable because it supports straightforward queries, efficient aggregation, and clear reporting for project managers.
+
+Resource: Microsoft Learn – Star Schema-https://learn.microsoft.com/en-us/power-bi/guidance/star-schema
