@@ -32,3 +32,13 @@ Resource: 3GPP – 5G Security Standards-https://www.3gpp.org
 A star schema uses a central fact table connected directly to denormalized dimension tables, making queries simpler and faster. A snowflake schema normalizes dimension tables into related sub-tables, reducing data redundancy but increasing query complexity. For reporting 5G service usage by region and day, a star schema is more suitable because it supports straightforward queries, efficient aggregation, and clear reporting for project managers.
 
 Resource: Microsoft Learn – Star Schema-https://learn.microsoft.com/en-us/power-bi/guidance/star-schema
+
+## Misconception in My Track
+Common wrong belief: A dedicated 5G network slice guarantees uninterrupted communication for emergency responders during network congestion and outages.
+Correct version: Network slicing allows a 5G network to create virtual networks with specific performance requirements and prioritize critical emergency traffic. However, it cannot guarantee uninterrupted service on its own. Network reliability also depends on sufficient resources, redundant connections, backup power, alternative routes, and effective failover mechanisms. These measures help maintain connectivity when network components fail or traffic increases. Therefore, network slicing should be combined with network redundancy and resilience strategies to support reliable emergency communications.
+
+Resource: RFC 9543 – A Framework for Network Slices in Networks Built from IETF Technologies-https://www.rfc-editor.org/rfc/rfc9543.html
+
+## Open Question
+
+One thing I would investigate further is how 5G networks can support emergency communication during natural disasters and improve healthcare services. I would explore how network redundancy and backup connections maintain connectivity when infrastructure is damaged by floods, storms, or earthquakes. I would also learn how 5G supports remote medical consultations, real-time patient monitoring, and the rapid sharing of medical information. Understanding these technologies is important because reliable network connectivity helps emergency teams coordinate rescue operations, enables healthcare professionals to respond quickly, and supports the delivery of essential medical care during critical situations.
